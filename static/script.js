@@ -3,7 +3,7 @@ const messageElement = document.getElementById('message');
 const resetButton = document.getElementById('reset-btn');
 
 // Set your API base URL
-const API_BASE = "https://remote-nollie-tictactoeapi-d1b0df30.koyeb.app"; // Deployed API URL
+const API_BASE = "http://0.0.0.0:8000"; // Deployed API URL
 
 // Fetch the game state from the server
 async function fetchGameState() {
