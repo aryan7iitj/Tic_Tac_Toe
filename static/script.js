@@ -2,8 +2,8 @@ const boardElement = document.getElementById('board');
 const messageElement = document.getElementById('message');
 const resetButton = document.getElementById('reset-btn');
 
-// Set your API base URL (adjust based on your deployment)
-const API_BASE = "http://127.0.0.1:8000"; // Deployed API URL
+// Set your API base URL
+const API_BASE = "http://localhost:8000"; // Deployed API URL
 
 // Fetch the game state from the server
 async function fetchGameState() {
